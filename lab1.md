@@ -2,10 +2,13 @@
 ### Flip Frauenzimmer
 ---
 #### <u>1. "cd" - no arguments
+![Image](firefox_mNXnjIojDu.png)
 
 #### <u>2. "cd" - directory
+![Image](firefox_fs0zijy5Kn.png)
 
 #### <u>3. "cd" - file
+![Image](firefox_y22kdjI4oJ.png)
 
 
 
