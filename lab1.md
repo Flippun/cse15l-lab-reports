@@ -16,6 +16,7 @@ An output was given because the argument given (a file) does not comply with wha
 
 #### <u>4. "ls" - no arguments
 ![Image](firefox_s2jC8p86xW.png)
+
 The "ls" command with no arguments gave an output of the names of the files and folders inside the current wd. Since the wd was /home, the only folder within it was /lecture1.
 
 #### <u>5. "ls" - directory
