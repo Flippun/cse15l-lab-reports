@@ -1,5 +1,3 @@
-# Lab Reports - CSE15L
+# Lab Reports - CSE15L - Flip Frauenzimmer
 ---
-## Flip Frauenzimmer
----
-[Lab Report 1](lab1.md) 
+# [Lab Report 1](lab1.md) 
