@@ -2,7 +2,7 @@
 ### Flip Frauenzimmer
 ---
 #### <u>1. "cd" - no arguments
-![Image](firefox_mNXnjIojDu.png)
+![Image](firefox_mNXnjIojDu.png) <br>
 The "cd" command changes directory to the given argument and gives no output. Therefore, with the lack of arguments provided, there was no output and no directory to be changed to.
 
 #### <u>2. "cd" - directory
