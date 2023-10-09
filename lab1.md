@@ -1,5 +1,4 @@
 #  **Lab Report 1**
-### Flip Frauenzimmer
 ---
 #### <u>1. "cd" - no arguments
 ![Image](firefox_mNXnjIojDu.png) <br>
