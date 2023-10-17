@@ -22,7 +22,7 @@ The "ls" command with no arguments gave an output of the names of the files and 
 The "ls" command with a directory argument listed the files and folders within that given directory. Although still in the /home directory, this command listed what was inside ther /lecture1 directory, without changing the current directory.
 
 #### <u>6. "ls" - file
-![Image](firefox_BGvKhW0jfy.png) <br>
+![Image](Images/firefox_BGvKhW0jfy.png) <br>
 Here a limitation of the "ls" command is seen as the output produced is an error. Despite the "Hello.java" file existing, the ls command can not see the file as the current wd is /home while Hello.java is in /home/lecture1. So, "ls" can view the subfiles/folders of the current wd and the content of folders/files within the pd, but not further.
 
 
