@@ -34,7 +34,7 @@
 #### 6. `ls` - file
 ![Image](firefox_BGvKhW0jfy.png) <br>
 1. Working Directory: `/home`
-2. Explanation: `ls` can view the subfiles/folders of the current working directory and the content of folders or files within the pd, but not further.
+2. Explanation: `ls` can view the subfiles/folders of the current working directory and the content of folders or files within the working directory, but not further.
 3. Error: An error occured. Despite the `Hello.java` file existing, the `ls` command can not see the file as the current working directory is `/home` while `Hello.java` is in `/home/lecture1`.
 
 ***
@@ -49,7 +49,7 @@
 ![Image](firefox_CqHzYFN7D7.png) <br>
 1. Working Directory: `/home` & `/home/lecture1`
 2. Explanation: Cat can not be used directly on folders.
-3. Error: An error occured. Using `cat` with a directory produced an error stating that the chosen argument is a directory. Therefore, cat can not be used on directories.
+3. Error: An error occured. Using `cat` with a directory produced an error stating that the chosen argument is a directory. Therefore, `cat` can not be used on directories.
 
 #### 9. `cat` - file
 ![Image](firefox_o4NQK8InSB.png) <br>
