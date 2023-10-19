@@ -17,7 +17,7 @@
 2. Explanation: An output was given because the argument given (a file) does not comply with what `cd` does,changing directories.
 3. Error: An error was given stating that `Hello.java` was not a directory and the working directory was not changed.
 <br/><br/>
----
+***
 
 #### 4. `ls` - no arguments
 ![Image](firefox_s2jC8p86xW.png) <br>
@@ -37,7 +37,7 @@
 2. Explanation: `ls` can view the subfiles/folders of the current working directory and the content of folders or files within the pd, but not further.
 3. Error: An error occured. Despite the `Hello.java` file existing, the `ls` command can not see the file as the current working directory is `/home` while `Hello.java` is in `/home/lecture1`.
 <br/><br/>
----
+***
 
 
 #### 7. `cat` - no arguments
