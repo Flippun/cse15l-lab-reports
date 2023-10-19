@@ -1,5 +1,5 @@
 #  **Lab Report 1**
-#### <u>1. `cd` <u>- no arguments
+#### 1. `cd` - no arguments
 ![Image](firefox_mNXnjIojDu.png) <br>
 1. Working Directory: `/home`
 2. Explanation:  The `cd` command changes directory to the given argument and gives no output. Therefore, with  the lack of arguments provided, there was no output and no directory to be changed to.
