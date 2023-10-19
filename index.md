@@ -1,6 +1,6 @@
 # Lab Reports - CSE15L - Flip Frauenzimmer
 ---
-## 1. [Lab Report 1](lab1.md) 
+## 1. [Lab Report 1](Lab1/lab1.md) 
 <!--
 ## 2. [Lab Report 2]() 
 ## 3. [Lab Report 3]() 
