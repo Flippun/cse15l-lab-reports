@@ -58,8 +58,8 @@
 The private key is stored in `/.ssh/id_rsa`, with my default terminal being `/c/Users/fmfra`.
 
 ### 2. Public key <br>
-![Image](Code_hG3Y7RC22v.png) <br>
-The public key is stored in `/.ssh/id_rsa.pub`, with my default terminal being `/c/Users/fmfra`.
+![Image](Code_i0hAVfeCms.png) <br>
+The public key is stored in `/.ssh/authorized_keys`, with the ieng6 default terminal being `/home/linux/ieng6/cs15lfa23/cs15lfa23fy`.
 
 ### 2. No-password <br>
 ![Image](Code_p16IshUbJK.png) <br>
