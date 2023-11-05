@@ -1,6 +1,6 @@
 #  **Lab Report 3**
 
-## Part 1 Bug: 'reverseInPlace' method for 'ArrayExamples.java' <br>
+## Part 1 Bug: `reverseInPlace` method for `ArrayExamples.java` <br>
 
 
 ### Failure-Inducing Input:
