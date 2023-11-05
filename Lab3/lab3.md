@@ -5,12 +5,12 @@
 
 ### Failure-Inducing Input:
 ```
-@Test 
-	public void testReverseInPlace() {
+@Test
+public void testReverseInPlace() {
     int[] input1 = { 5, 4, 3, 2, 1 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 1, 2, 3, 4, 5 }, input1);
-	}
+}
 ```
 ```
 There was 1 failure:
@@ -37,11 +37,11 @@ Caused by: java.lang.AssertionError: expected:<4> but was:<2>
 ### Non Failure-Inducing Input:
 ```
 @Test 
-	public void testReverseInPlace() {
+public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
-	} 
+} 
 ```
 ```
 OK (1 test)
@@ -59,7 +59,7 @@ static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
-  }
+}
 ```
 After:
 ```
@@ -69,7 +69,7 @@ static void reverseInPlac(int[] arr) {
         arr[arr.length - i - 1] = arr[i];
         arr[i] = tempVar;
     }
-  }
+}
 ```
 The bug in the code is that when the end elements of the array would be swapped to the beginning, the end elements would then be swapped with themselves in the initial indices, so the 2nd half of the array stayed the same. I fixed this bug by storing each element on the opposite side of the array of the current element in a variable named tempVar, then overwriting that opposing element with the current element, and finally overwriting the current element with the opposing element in tempVar. In addition, I made the for loop to I < arr.length / 2, making the loop only run for half the array as the 2nd half was already solved.
 
