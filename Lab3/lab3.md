@@ -100,7 +100,7 @@ technical/plos/pmed.0020209.txt:            an entire institution whose mission 
 ```
 This command option only prints/finds lines when the pattern is by itself, or within other syntax like parentheses and quotations. In other words, it does not list lines that contain words that contain the pattern. In this case, lines with words like "unhappy" would not be found. This is useful when searching for a word that is often found in other words, such as "is", and you only want that exact word. 
 
-Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux
+Source: [https://www.geeksforgeeks.org/grep-command-in-unixlinux](https://www.geeksforgeeks.org/grep-command-in-unixlinux)
 
 
 ### 2. `-1`
@@ -142,7 +142,7 @@ technical/government/Alcohol_Problems/Session4-PDF.txt:0
 ```
 This option prints each file and a count of the number of lines that match the given number. This could be useful if you just want to find how many lines contain the given string, but don't need to see those lines or want to avoid clutter. For a common phrase like "and", seeing every single instance of the string could be overwhelming, making this command useful.
 
-Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux
+Source: [https://www.geeksforgeeks.org/grep-command-in-unixlinux](https://www.geeksforgeeks.org/grep-command-in-unixlinux)
 
 
 ### 4. `n`
@@ -164,4 +164,4 @@ technical/plos/pmed.0020273.txt:41:        three major groups: immune and inflam
 ```
 This command option functions very similar to the default option, but will also add the line number at which the pattern was found. This is useful when you wish to locate that line in the file itself after using `grep`, rather than just knowing it exists in the file somewhere.
 
-Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux
+Source: [https://www.geeksforgeeks.org/grep-command-in-unixlinux](https://www.geeksforgeeks.org/grep-command-in-unixlinux) 
